@@ -1,0 +1,40 @@
+#main {
+    padding: 0 20% 0 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+}
+
+#sizechange {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+p {
+    margin: 0;    
+    padding: 0;
+}
+
+#buttons {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    width: 170px;
+    height: 35px;
+}
+
+#grid {
+    margin: 20px 0 20px 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+
+.item {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000000;
+}
